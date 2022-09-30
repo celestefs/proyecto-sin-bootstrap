@@ -1,0 +1,121 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+nav {
+    padding: 20px
+}
+
+li, a, p {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color:beige;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0a0501;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+span {
+    color:beige;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.alinear {
+    margin-right: auto;
+    display: inline;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner_area {
+    background-image: url(resources/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+#cita {
+    position: absolute;
+    padding-top: 13%;
+    left: 50px;
+    text-align: center;
+    font: bold;
+    text-shadow: #0a0501 5px;
+    line-height: 20px;
+}
+
+#first-txt {
+    position: absolute;
+    padding-top: 10%;
+    left: 30px;
+    right: 50px;
+    text-align: right;
+    text-indent: 50%;
+    font: bold;
+    text-shadow: #0a0501 5px;
+    line-height: 20px;
+}
+
+.escudos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_area p {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width:50%;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.headlines {
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#1b0d05;
+}
+
+form {
+    text-align: center;
+}
+
+.formulario>p {
+    text-align: center
+}
+
+input {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0501;
+}
